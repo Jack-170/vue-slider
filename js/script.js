@@ -74,7 +74,7 @@ const app = createApp({
               this.activeImage = 0;
             }
           },
-          prevSlide() {
+         prevSlide() {
             this.activeImage--;
             if (this.activeImage < 0) {
               this.activeImage = this.slides.length - 1;

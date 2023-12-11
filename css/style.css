@@ -12,6 +12,7 @@
 }
 
 .item {
+    display:none;
     float: left;
     width: 700px;
     height: 300px;
@@ -102,4 +103,11 @@ oppure i caratteri ∧ (&and;) e ∨ (&or;)
     bottom: 35%;
     left: 50%;
     transform: translate(-50%) rotate(135deg);
+}
+
+
+.item.active {
+    display: block;
+    position: relative;
+    opacity: 1;
 }
